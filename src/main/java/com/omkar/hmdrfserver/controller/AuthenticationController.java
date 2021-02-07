@@ -42,7 +42,7 @@ public class AuthenticationController {
     }
 
     @PostMapping(value = "/username/get")
-    public @ResponseBody ResponseEntity<?> pingUnsecure(@RequestHeader("Authorization") String token) {
+    public @ResponseBody ResponseEntity<?> getUsername(@RequestHeader("Authorization") String token) {
         log.info("Call Get username with TOKEN : {}",token);
         String name = jwtTokenUtil.getUsernameFromToken(token.substring(7));
         return ResponseEntity.ok(new ApiResponse(true, name));
