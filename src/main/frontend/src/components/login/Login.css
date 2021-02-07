@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+/* background: #1C8EF9 !important; */
+background-image: linear-gradient(white, #1C8EF9 99%);
+display: flex;
+font-weight: 400;
+font-family: 'Fira Sans', sans-serif;
+}
+
+h2,h3,h4,h5,h6,label,span {
+font-weight: 500;
+font-family: 'Fira Sans', sans-serif;
+}
+
+body, html, #root{
+width: 100%;
+height: 100%;
+}
+
+.header-login h1{
+    padding: 0;
+    margin: 10vh auto 0 auto;
+    font-size: 12vh;
+    font-family: 'Quattrocento',serif;
+    /* color: white; */
+    color: black;
+}
+
+.header-login i {
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 12vh;
+    color: black;
+}
+
+.form-control:focus {
+border-color: #167bff;
+box-shadow: none;
+}
+
+.login-div {
+    background-color: white;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vh; 
+    padding: 30px 25px 50px 25px;
+    border-radius: 10px;
+}
+
+
+.login-div h3 {
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+    margin-top: 0 !important;
+    padding-top: 0px;
+}
+
+.auth-label {
+    float: left;
+}
+
+.loginButton {
+    width: 30% !important;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+

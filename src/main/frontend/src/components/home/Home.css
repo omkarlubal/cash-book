@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    /* height: 100vh; Set full-width to expand the whole page */
+    background-color: #1E1E2E;
+    /* font-family: 'Fira Sans', sans-serif; */
+    /* font-family: 'Quattrocento',serif; */
+}
+
+.column {
+    width: 25%;
+    padding: 0;
+    margin: 0;
+}
+
+
+#profile_and_hm_balance {
+    color: white;
+    background-image: linear-gradient( #00c6ff, #0072ff);
+}
+
+.profile {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hm_balance {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #27293D; */
+    /* background-image: linear-gradient( #00c6ff, #0072ff); */
+}
+
+.hm_balance h3 {
+    /* HEADER */
+    position:absolute;
+}
+
+.hm_balance h4 {
+    /* BALANCE */
+    position: relative;
+    top:20%
+}
+
+#show_and_create_transactions {
+    width: 50%;
+    height: 100vh;
+    color: white;
+    padding: 0;
+    margin:0;
+}
+
+
+.transactions_header{
+}
+
+.transactions_scroll_view {
+    height: 60%;
+    overflow-y: auto; 
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    background-color: #27293D;
+    padding: 5px 10px 0px 10px;
+}
+
+.transactions_list {
+    list-style-type:none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.transactions_list li {
+    border-bottom: 2px solid black;
+}
+
+.row_txn {
+    height: 30px;
+    padding: 0;
+}
+
+.to_fro_div {
+    float: left;
+    width: 60%;
+}
+
+
+.sender {
+    color: rgb(255, 16, 16);
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 0.5%;
+    margin-right: 2%;
+}
+
+.arrow {
+    transform: scale(1,1);
+}
+
+.receiver {
+    color: rgb(27, 230, 27);
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0% 0% 0% 2%;
+}
+
+.note_icon {
+    transform: scale(1.2,1.2);
+    margin-right: 1%;
+}
+
+.amount_span {
+    margin-left: 1%;
+}
+
+.amount {
+    color: rgb(71, 68, 233);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.time_icon {
+    transform: scale(1.2,1.2);
+    margin-right: 1.5%;
+    margin-bottom: 1%;
+}
+.time {
+    color: rgb(174, 159, 241);
+}
+
+
+
+.create_transaction_pane {
+    /* background-image: linear-gradient( #00c6ff, #0072ff); */
+    background-color: #27293D;
+    margin:2% 2.5% 0% 2.5%;
+    padding: 0;
+}
+
+.transactions_header {
+    margin: 0;
+    padding: 0;
+}
+
+.create_transaction_pane h3 {
+    margin: 0;
+    padding: 0;
+}
+
+#outstanding_balance {
+    /* background: linear-gradient(to bottom, #8e2de2, #4a00e0); */
+    background-image: linear-gradient( #00c6ff, #0072ff);
+    color: white;
+    
+}
+
+#outstanding_balance h2 {
+    margin: 20px 0px 0px 0px;
+}
+
+#outstanding_balance table {
+    margin: 30px auto 0 auto;
+    
+}
+
+.outstanding_table {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 100.2%;
+    overflow-y: auto;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+    
+}
+
+.outstanding_table thead tr {
+    background-color: #1E1E2E;
+}
+
+.outstanding_table th,
+.outstanding_table td {
+    padding: 12px 15px;
+}
+
+.outstanding_table tbody tr {
+    border-bottom: 1px solid #ffffff;
+    background-color: #27293D;
+}
+
+/* .outstanding_table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+} */
+
+.outstanding_table tbody tr:last-of-type {
+    border-bottom: 5px solid #1E1E2E;
+}
+
+
+/* SCROLL BAR PROPERTIES */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

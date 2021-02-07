@@ -1,0 +1,64 @@
+/* .transactions_create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}  */
+
+.row_one {
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+
+.column_one {
+    margin: 1.5% 0 0 2%;
+    padding: 0;
+    display: table-cell;
+    vertical-align: middle;
+    height: 150px;
+    width: 200px;
+    /* border: 1px solid red; */
+    position: absolute;
+}
+
+.column_one label {
+    margin-right: 6%;
+}
+
+
+.column_two { 
+    position: absolute;
+    margin: 1.5% 0px 0px 18%;
+    padding: 0;
+    height: 150px;
+    width: 200px;
+    /* border: 1px solid green; */
+}
+
+.column_three {
+    position: relative;
+    margin: 0% 0px 0px 72%;
+    padding: 0;
+    padding-bottom: 50px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+
+.transaction_submit_button {
+    position:absolute;
+}
+
+.new_acc_button {
+    position: relative;
+    top: 60px;
+}
+
+.add_new_account input{
+    margin: 0px 0px 0px 40px !important;
+}
+
+
