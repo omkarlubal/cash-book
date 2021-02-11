@@ -93,7 +93,7 @@ dependencies {
 	compile group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '2.4.1'
 	compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '2.4.1'
 	compile group: 'mysql', name: 'mysql-connector-java'
-
+	runtimeOnly(group: 'org.postgresql', name: 'postgresql')
 }
 
 test {
