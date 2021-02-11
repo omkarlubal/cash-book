@@ -75,7 +75,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                         "/**/*.html",
                         "/**/*.css",
                         "/**/*.js",
-                        "/**/*.ttf")
+                        "/**/*.ttf",
+                        "/**/*.woff",
+                        "/**/*.woff2",
+                        "/**/*.eot")
                 .permitAll()
                 .antMatchers("/auth/authenticate", "/auth/register","/auth/ping").permitAll()
                 .antMatchers("/api/funds/transfer","/api/balance/create").hasAnyRole(UserRoles.SUPER_USER.getValue(), UserRoles.ADMIN.getValue())
