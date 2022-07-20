@@ -11,4 +11,11 @@ A Cash book app to record transactions between N number of entities. Built using
 4. Frontend is built using React. Code in src/main/frontend
 5. Single gradle file to compile and run Backend as well as Frontend. (Check build.gradle)
 
+# Test Account
+username - dummy
+password - dummy
+
+above account has role 'USER' so can only view transactions.
+Ping me on LinkedIn to access SUPER USER or ADMIN
+
 
