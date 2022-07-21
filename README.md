@@ -21,6 +21,6 @@ password - dummy
 
 
 above account has role 'USER' so can only view transactions.
-Ping me on [LinkedIn][https://linkedin.com/in/omkarlubal] to access SUPER USER or ADMIN
+Ping me on [LinkedIn](https://linkedin.com/in/omkarlubal) to access SUPER USER or ADMIN
 
 
